@@ -1,0 +1,56 @@
+#treeContainer{
+	float : left;
+	width : 500px;
+	overflow-x : auto;
+	margin-right : 10px;
+	border : 1px solid black;
+	background : #D66320;
+	height:500px;
+}
+#treeContainer ul{
+	list-style : none;
+}
+#treeContainer ul li.haveChild > a{
+	color : white;
+	cursor : pointer;
+}
+div.masterswitch{
+	width : 40px;
+	height : 40px;
+	background : #78CFF5;
+	position : absolute;
+	bottom : 0;
+	right : 0;
+	margin : 5px;
+}
+#house{
+	width : 500px;
+	height : 300px;
+	position : relative;
+}
+.room{
+	height : 200px;
+	width : 200px;
+	margin-right : 20px;
+	float : left;
+	border : 1px solid #78CFF5;
+}
+.room.lightson{
+	background : yellow;
+}
+.room.lightsoff{
+	background : black;
+}
+div.switch1,div.switch2{
+	height:20px;
+	width:20px;
+	background : white;
+}
+div.switch1{
+	margin-left : 5px;
+	float : left;
+}
+div.switch2{
+	margin-right : 5px;
+	float : right;
+}

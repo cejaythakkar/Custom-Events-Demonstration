@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>custom scroll bar plugin test</title>
+	<link rel="stylesheet" type="text/css" href="css/tree.css" />
+    <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/tree.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+		<div id="treeContainer">
+			<ul id="tree">
+        <li class='haveChild expanded'><a>root/</a>
+            <ul>
+                <li><a>index.html</a></li>
+                <li><a>about.html</a></li>
+                <li><a>gallery.html</a></li>
+                <li><a>contact.html</a></li>
+                <li class='haveChild expanded'><a>assets/</a>
+                    <ul>
+                        <li class='haveChild expanded'><a>images/</a>
+                            <ul>
+                                <li><a>logo.png</a></li>
+                                <li><a>background.jpg</a></li>
+                            </ul>
+                        </li>
+                        <li class='haveChild expanded'><a>js/</a>
+                            <ul>
+                                <li><a>jquery.js</a></li>
+                                <li><a>myscript.js</a></li>
+                            </ul>
+                        </li>
+                        <li class='haveChild expanded'><a>css/</a>
+                            <ul>
+                                <li><a>page.css</a></li>
+                                <li><a>typography.css</a></li>
+                            </ul>                 
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>     
+    </ul>
+		</div>
+            
+
+	</div>
+</body>
+
+</html>
